@@ -45,7 +45,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Full Stack Developer",
         icon: web,
     },
     {
@@ -57,7 +57,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "AI Developer",
+        title: "Machine Learning Enthusiast",
         icon: creator,
     },
 ];
@@ -186,6 +186,46 @@ const experiences = [
             "Express Routers , cookies, session , flash , authentication , authorization , deploying",
             "React - JSX , events , State Concepts , component Design , Effects , Material UI",
         ],
+    },
+    {
+        title: "Web Developer Intern",
+        company_name: "Beacon.li",
+        icon: fullstack,
+        iconBg: "#E6DEDD",
+        date: "May 2024 - June 2024",
+        points: [
+        "I had the privilege of interning with Rare Bits Technology Pvt Ltd as a Web Development Intern, where I honed my skills in front-end technologies. During this internship, I actively contributed to:",
+        "Front-End Development: Developing projects using React, HTML, and CSS.",
+        "Collaboration: Participating in design discussions and brainstorming sessions with the team.",
+        "Teamwork: Demonstrating a collaborative spirit and consistently fostering a positive and cheerful work environment.",
+        "This experience not only strengthened my technical expertise but also allowed me to grow as a team player. I'm grateful for the guidance and support I received during my tenure at Rare Bits Technology Pvt Ltd."
+        ],
+    },
+    {
+        title: "Web Developer Project Intern", 
+        company_name: "InfraBIM Techno Solutions",
+        icon: fullstack,
+        iconBg: "#E6DEDD",
+        date: "May 2024 - Jun 2024",
+        points: [
+            "I had the opportunity to intern at InfraBIM Techno Solutions, where I worked on the project 'Dashboard Design for ShopTalk Web App.'",
+            "During this internship, I gained hands-on experience in:",
+            "Frontend Development: Using HTML, CSS, Bootstrap for responsive design.",
+            "Dashboard Layout Design: Creating user-friendly and visually appealing interfaces.",
+            "React Component Development: Designing and implementing dynamic components.",
+            "This experience strengthened my MERN stack development skills and enhanced my proficiency in building scalable web applications. I'm grateful for the valuable mentorship and support received throughout the internship."
+        ]
+    },
+    {
+        title: "Chief Technology Officer", 
+        company_name: "EventAura",
+        icon: fullstack,
+        iconBg: "#E6DEDD",
+        date: "May 2024 - present",
+        points: [
+            "As a MERN stack specialist, I focus on building scalable, efficient, and user-centric platforms to revolutionize event management and beyond. Leveraging technologies like MongoDB, Express.js, React, and Node.js, I'm passionate about creating seamless digital experiences.",
+            "Website: eventaura.tech"
+        ]
     },
 ];
 

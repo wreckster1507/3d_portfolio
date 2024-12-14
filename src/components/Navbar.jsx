@@ -4,6 +4,7 @@ import { styles } from '../styles';
 import { navLinks } from '../constants'
 
 import { logo, menu, close } from '../assets';
+import logo1 from '../assets/tech/logo1.png'
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -17,7 +18,7 @@ const Navbar = () => {
             Window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo1} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-18 font-bold cursor-pointer flex'>Sarthak &nbsp;
             <span className='sm:block hidden'> | Web Developer</span> </p>
         </Link>
